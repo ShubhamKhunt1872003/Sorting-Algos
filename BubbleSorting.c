@@ -3,9 +3,9 @@
 void BubbleSort(int A[] , int N);
 int main()
 {
-    int A[] = {99,11,88,55,22,66,77,2,3,30,58,66,92};
-    BubbleSort(A,13);
-    for(int i=0;i<13;i++)
+    int A[] = {99,11,88,55,22,66,77,2,3,30,58,66};
+    BubbleSort(A,sizeof(A)/4);
+    for(int i=0;i<sizeof(A)/4;i++)
         printf("%d\t",A[i]);
 
 }
